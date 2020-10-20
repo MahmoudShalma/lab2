@@ -1,0 +1,41 @@
+git clone https://github.com/MahmoudShalma/lab2
+touch f1
+vi f1
+git add .
+git commit -m "first commit"
+git push origin master
+git branch dev
+git branch test
+git checkout test
+git commit -m "branch test"
+git push origin test
+git checkout dev
+touch f2 f3
+git add .
+git commit -m "branch dev"
+git push origin dev
+git checkout master
+git merge dev
+git add .
+git commit -m "branch "
+git push origin master
+
+{git branch -d test
+git branch --delete test}
+
+git tag -a v1.4 -m "my version 1.4"
+git tag -l
+git push origin v1.4
+
+{git tag -d v1.4
+git tag --delete v1.4}
+
+
+
+
+
+
+
+
+
+git stash  x

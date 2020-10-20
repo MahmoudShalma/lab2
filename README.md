@@ -1,6 +1,6 @@
 # Tech Shop
 
-![image](/img.png)
+![image](/img.jpg)
 
 Tech Shop is a simple website for buying electronics.
 
